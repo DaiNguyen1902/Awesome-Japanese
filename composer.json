@@ -1,0 +1,17 @@
+{
+    "name": "daind/Awesome-Japanese",
+    "description": "How to work with Japanese",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "AwesomeJapanese\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "DaiND",
+            "email": "duynguyen1241@gmail.com"
+        }
+    ],
+    "require": {}
+}
