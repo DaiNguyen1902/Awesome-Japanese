@@ -10,5 +10,7 @@ class ServiceProvider extends \Illuminate\Support\ServiceProvider
         $this->app->singleton(AwesomeJapanese::class, function () {
             return new AwesomeJapanese();
         });
+
+        $this->app->alias(AwesomeJapanese::class, 'AwesomeJapanese');
     }
 }
