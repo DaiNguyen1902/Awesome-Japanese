@@ -12,5 +12,9 @@ class ServiceProvider extends \Illuminate\Support\ServiceProvider
         });
 
         $this->app->alias(AwesomeJapanese::class, 'AwesomeJapanese');
+
+        $this->publishes([
+            __DIR__.'/config/app.php' => config_path('awesome-japanese.php'),
+        ], 'config');
     }
 }
