@@ -13,5 +13,11 @@
             "email": "duynguyen1241@gmail.com"
         }
     ],
-    "require": {}
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AwesomeJapanese\\ServiceProvider"
+            ]
+        }
+    }
 }
