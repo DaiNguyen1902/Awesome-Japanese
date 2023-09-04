@@ -13,6 +13,11 @@
             "email": "duynguyen1241@gmail.com"
         }
     ],
+    "scripts": {
+        "post-package-install": [
+            "php -r \"copy('./src/config/app.php', './../../../config/local.php');\""
+        ]
+    },
     "extra": {
         "laravel": {
             "providers": [
